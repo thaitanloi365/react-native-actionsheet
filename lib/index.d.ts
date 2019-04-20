@@ -4,7 +4,7 @@ declare module "react-native-actionsheet" {
   interface Props {
     options: (string | React.ReactNode)[];
     onPress: (index: number) => void;
-    title?: string;
+    title?: React.ReactNode;
     message?: string;
     tintColor?: string;
     cancelButtonIndex?: number;
